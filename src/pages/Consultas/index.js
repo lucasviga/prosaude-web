@@ -38,7 +38,7 @@ function Consultas() {
     const { onClick } = useTabState();
 
     return (
-      <TabItemNavBtn type="TabItemNavBtn" className="mg-rg" onClick={onClick}>
+      <TabItemNavBtn type="TabItemNavBtn" onClick={onClick}>
         {children}
       </TabItemNavBtn>
     );
@@ -77,16 +77,7 @@ function Consultas() {
             </TabNavigation>
 
             <TabContent>
-              <Panel>
-                <div className="item">
-                  <TableConsulta />
-                </div>
-              </Panel>
-              <Panel>
-                <div className="item">
-                  Ver em Card
-                </div>
-              </Panel>
+              <TableConsulta />
             </TabContent>
           </Tabs>
         </Wrapper>

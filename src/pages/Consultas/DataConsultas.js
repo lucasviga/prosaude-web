@@ -102,13 +102,13 @@ export const data = [
     valor: '120,00'
   },
   {
-    id: 17,
+    id: 18,
     nomeExame: 'Pneumologista',
     description: '',
     valor: '120,00'
   },
   {
-    id: 17,
+    id: 19,
     nomeExame: 'Reumatologista',
     description: '',
     valor: '120,00'

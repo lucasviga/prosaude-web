@@ -40,8 +40,6 @@ function Exames() {
                   <th>Exames</th>
                   <th></th>
                   <th></th>
-                  <th></th>
-                  <th></th>
                 </tr>
               </thead>
 
@@ -52,16 +50,16 @@ function Exames() {
 
                     {exame.id !== idRow && (
                       <>
-                        <td>
+                        {/* <td>
                           <button onClick={() => handleShowPrice(exame.id)} className="btn-show-price">
                             Ver preço
                           </button>
-                        </td>
+                        </td> */}
                         <td>{exame?.description}</td>
                         <td>R$ ${exame.valor}</td>
                       </>
                     )}
-                    <td>Agendar pelo Whatsapp</td>
+                    {/* <td>Agendar pelo Whatsapp</td> */}
                   </tr>
                 ))}
               </tbody>

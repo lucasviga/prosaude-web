@@ -28,7 +28,7 @@ export default function TableConsulta() {
                 <th></th>
                 <th></th>
                 <th></th>
-                <th></th>
+                {/* <th></th> */}
               </tr>
             </thead>
 
@@ -37,19 +37,21 @@ export default function TableConsulta() {
                 <tr key={exame.id}>
                   <th>{exame.nomeExame}</th>
                   <td>
-                    {exame.id !== idRow && (
+                    {/* {exame.id !== idRow && (
                       <button onClick={() => handleShowPrice(exame.id)} className="btn-show-price">
                         {showPrice ? 'Ocultar preço' : 'Ver preço'}
                       </button>
-                    )}
+                    )} */}
                   </td>
-                  {showPrice && (
+                  {/* {showPrice && (
                     <>
                       <td>{exame?.description}</td>
                       <td>R$ ${exame.valor}</td>
                     </>
-                  )}
-                  <td>Agendar pelo Whatsapp</td>
+                  )} */}
+                  <td>{exame?.description}</td>
+                  <td>R$ {exame.valor}</td>
+                  {/* <td>Agendar pelo Whatsapp</td> */}
                 </tr>
               ))}
             </tbody>
