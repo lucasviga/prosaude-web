@@ -1,8 +1,8 @@
 import { Container } from './styles';
 
-export default function ButtonLink({ children, bgColor, textColor }) {
+export default function ButtonLink({ children, url, bgColor, textColor }) {
   return (
-    <Container href="https://facebook.com" bgColor={bgColor} textColor={textColor}>
+    <Container href={url} bgColor={bgColor} textColor={textColor} >
       {children}
     </Container>
   );

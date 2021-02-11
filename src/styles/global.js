@@ -42,4 +42,8 @@ export default createGlobalStyle`
   a {
     text-decoration: none !important;
   }
+
+  .collapse-css-transition {
+    transition: height 280ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 `;
