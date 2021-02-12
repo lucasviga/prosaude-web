@@ -1,8 +1,7 @@
 import {useState, useEffect} from 'react';
 import { Tabs, useTabState, usePanelState } from '@bumaga/tabs';
-import ItemsCarousel from 'react-items-carousel';
 
-import {MdChevronLeft, MdChevronRight, MdViewModule, MdViewList} from 'react-icons/md';
+import {MdViewModule, MdViewList} from 'react-icons/md';
 
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';

@@ -1,9 +1,8 @@
 import {useState} from 'react';
-import { FaHospital } from 'react-icons/fa';
 
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import { HeaderTitle, TableListExame, Exame, SectionIntro, Container, Wrapper, SectionUnidade } from './styles';
+import { HeaderTitle, TableListExame, Exame, SectionIntro, Container, Wrapper } from './styles';
 
 import {data} from './DataExames';
 
@@ -11,10 +10,10 @@ function Exames() {
   const [showPrice, setShowPrice] = useState(false);
   const [idRow, setIdRow] = useState();
 
-  function handleShowPrice(id) {
-    setShowPrice(true);
-    setIdRow(id)
-  }
+  // function handleShowPrice(id) {
+  //   setShowPrice(true);
+  //   setIdRow(id)
+  // }
 
   return (
     <>
