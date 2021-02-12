@@ -45,17 +45,16 @@ function Exames() {
                   <tr key={exame.id}>
                     <th>{exame.nomeExame}</th>
 
-                    {exame.id !== idRow && (
-                      <>
-                        {/* <td>
-                          <button onClick={() => handleShowPrice(exame.id)} className="btn-show-price">
-                            Ver preço
-                          </button>
-                        </td> */}
-                        <td>{exame?.description}</td>
-                        <td>R$ ${exame.valor}</td>
-                      </>
-                    )}
+
+                    {/* <td>
+                      <button onClick={() => handleShowPrice(exame.id)} className="btn-show-price">
+                        Ver preço
+                      </button>
+                    </td> */}
+                    <td>{exame?.description}</td>
+                    <td>R$ ${exame.valor}</td>
+
+
                     {/* <td>Agendar pelo Whatsapp</td> */}
                   </tr>
                 ))}
