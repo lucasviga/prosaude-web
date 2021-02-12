@@ -1,5 +1,3 @@
-import {useState} from 'react';
-
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import { HeaderTitle, TableListExame, Exame, SectionIntro, Container, Wrapper } from './styles';
@@ -7,8 +5,8 @@ import { HeaderTitle, TableListExame, Exame, SectionIntro, Container, Wrapper } 
 import {data} from './DataExames';
 
 function Exames() {
-  const [showPrice, setShowPrice] = useState(false);
-  const [idRow, setIdRow] = useState();
+  // const [showPrice, setShowPrice] = useState(false);
+  // const [idRow, setIdRow] = useState();
 
   // function handleShowPrice(id) {
   //   setShowPrice(true);

@@ -43,11 +43,11 @@ function Consultas() {
     );
   };
 
-  const Panel = ({ children }) => {
-    const isActive = usePanelState();
+  // const Panel = ({ children }) => {
+  //   const isActive = usePanelState();
 
-    return isActive ? <TabItemGrid>{children}</TabItemGrid> : null;
-  };
+  //   return isActive ? <TabItemGrid>{children}</TabItemGrid> : null;
+  // };
 
   return (
     <>
