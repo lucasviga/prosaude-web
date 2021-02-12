@@ -1,17 +1,17 @@
-import {useState} from 'react';
+// import {useState} from 'react';
 
 import { HeaderTitle, TableListConsulta, Consulta, Container, WrapperConsulta } from './styles';
 
 import {data} from './DataConsultas';
 
 export default function TableConsulta() {
-  const [showPrice, setShowPrice] = useState(false);
-  const [idRow, setIdRow] = useState();
+  // const [showPrice, setShowPrice] = useState(false);
+  // const [idRow, setIdRow] = useState();
 
-  function handleShowPrice(id) {
-    setShowPrice(true);
-    setIdRow(id)
-  }
+  // function handleShowPrice(id) {
+  //   setShowPrice(true);
+  //   setIdRow(id)
+  // }
 
   return (
     <Container>

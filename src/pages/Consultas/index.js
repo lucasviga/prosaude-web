@@ -1,5 +1,5 @@
-import {useState, useEffect} from 'react';
-import { Tabs, useTabState, usePanelState } from '@bumaga/tabs';
+// import {useState, useEffect} from 'react';
+import { Tabs, useTabState } from '@bumaga/tabs';
 
 import {MdViewModule, MdViewList} from 'react-icons/md';
 
@@ -14,24 +14,13 @@ import {
   TabNavigation,
   TabContent,
   TabItemNavBtn,
-  TabItemGrid,
+  // TabItemGrid,
 } from './styles';
 import TableConsulta from './TableConsulta';
 
 function Consultas() {
   // const [showPrice, setShowPrice] = useState(false);
   // const [activeItemIndex, setActiveItemIndex] = useState(0);
-
-  const [width, setWidth] = useState(window.innerWidth);
-
-  useEffect(() => {
-    const handleResize = () => setWidth(window.innerWidth);
-    window.addEventListener('resize', handleResize);
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  });
 
   const Tab = ({ children }) => {
     const { onClick } = useTabState();
