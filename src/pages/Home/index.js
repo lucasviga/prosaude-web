@@ -10,14 +10,14 @@ import Header from '../../components/Header';
 import cartaoVisita from '../../assets/download/cartao-de-visita.pdf';
 
 import {
-  ContentTextSlide,
+  // ContentTextSlide,
   SectionAtendimento,
   SectionVantagens,
   SectionEspecialidade,
   SectionFooter,
 } from './styles';
 
-import slide01 from '../../assets/img/bg-01.png';
+// import slide01 from '../../assets/img/bg-01.png';
 import img01 from '../../assets/img/especialista.png';
 
 import banner1 from '../../assets/img/Banner1.jpg';
