@@ -19,6 +19,11 @@ import {
 
 import slide01 from '../../assets/img/bg-01.png';
 import img01 from '../../assets/img/especialista.png';
+
+import banner1 from '../../assets/img/Banner1.jpg';
+import banner2 from '../../assets/img/Banner2.jpg';
+import banner3 from '../../assets/img/Banner3.jpg';
+
 import { Link } from 'react-router-dom';
 
 function Home() {
@@ -27,8 +32,8 @@ function Home() {
       <Header />
       <Carousel showArrows showThumbs={false} showStatus={false}>
         <div>
-          <img src={slide01} alt="Clinico Geral e Pediatra Gratuito" />
-          <ContentTextSlide>
+          <img src={banner1} alt="Clinico Geral e Pediatra Gratuito" />
+          {/* <ContentTextSlide>
             <h1>
               Clinico Geral e
               <br />
@@ -36,8 +41,11 @@ function Home() {
             </h1>
 
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-          </ContentTextSlide>
+          </ContentTextSlide> */}
         </div>
+
+        <div><img src={banner2} alt="Clinico Geral e Pediatra Gratuito" /></div>
+        <div><img src={banner3} alt="Clinico Geral e Pediatra Gratuito" /></div>
       </Carousel>
 
       <SectionVantagens>
