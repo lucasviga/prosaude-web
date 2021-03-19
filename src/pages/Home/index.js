@@ -30,7 +30,7 @@ function Home() {
   return (
     <>
       <Header />
-      <Carousel showArrows showThumbs={false} showStatus={false}>
+      <Carousel autoPlay showArrows showThumbs={false} showStatus={false}>
         <div>
           <img src={banner1} alt="Clinico Geral e Pediatra Gratuito" />
           {/* <ContentTextSlide>
