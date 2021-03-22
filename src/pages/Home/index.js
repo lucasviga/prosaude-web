@@ -30,7 +30,7 @@ function Home() {
   return (
     <>
       <Header />
-      <Carousel autoPlay showArrows showThumbs={false} showStatus={false}>
+      <Carousel className="mg-md-top" autoPlay infiniteLoop showArrows showThumbs={false} showStatus={false}>
         <div>
           <img src={banner1} alt="Clinico Geral e Pediatra Gratuito" />
           {/* <ContentTextSlide>

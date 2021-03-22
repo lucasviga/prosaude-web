@@ -46,4 +46,14 @@ export default createGlobalStyle`
   .collapse-css-transition {
     transition: height 280ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+
+  .mg-md-top {
+    margin-top: 7rem;
+  }
+
+  @media(max-width: 56rem) {
+    .mg-md-top {
+      margin-top: 0;
+    }
+  }
 `;
