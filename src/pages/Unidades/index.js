@@ -118,6 +118,23 @@ function Home() {
               </a>
             </div>
           </div>
+
+          <div className="card">
+            <FaHospital color="#258CC6" size={25} />
+            <h1>Educandos</h1>
+            <p>
+              Av. Leopoldo Péres, 500 (em frente a Bemol)
+              <br />
+              Educandos, Manaus-AM
+            </p>
+            <span>69010-300</span>
+
+            <div className="card__link-mapa">
+              <a href="https://goo.gl/maps/zjURCZHV2SxVQ6V26" target="_blank" without rel="noreferrer">
+                Ver o mapa
+              </a>
+            </div>
+          </div>
         </div>
       </SectionUnidade>
 
