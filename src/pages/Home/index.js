@@ -20,9 +20,9 @@ import {
 // import slide01 from '../../assets/img/bg-01.png';
 import img01 from '../../assets/img/especialista.png';
 
-import banner1 from '../../assets/img/Banner1.jpg';
+// import banner1 from '../../assets/img/Banner1.jpg';
 import banner2 from '../../assets/img/Banner2.jpg';
-import banner3 from '../../assets/img/Banner3.jpg';
+// import banner3 from '../../assets/img/Banner3.jpg';
 
 import { Link } from 'react-router-dom';
 
