@@ -47,13 +47,14 @@ export const SectionAtendimento = styled.section`
   background-image: linear-gradient(#258CC6, #276F98);
   color: #fff;
   padding: 5rem;
-  margin: 10rem 5rem;
   border-radius: 10px;
 
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  max-width: 1120px;
+  margin: 8rem auto;
 
   @media (max-width: 56.25em) {
     display: flex;
@@ -185,7 +186,8 @@ export const SectionEspecialidade = styled.section`
 
   width: 100%;
   height: 100%;
-  padding: 0 5rem;
+  max-width: 1120px;
+  margin: 0 auto;
 
   @media (max-width: 56.25em) {
     display: flex;

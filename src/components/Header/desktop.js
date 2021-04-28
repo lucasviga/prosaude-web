@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import {FaTooth, FaDna, FaHeartbeat} from 'react-icons/fa';
 
-import logo from '../../assets/img/logo_prosaude.png';
+import logo from '../../assets/img/logo.svg';
 
 import { Container } from './styles';
 

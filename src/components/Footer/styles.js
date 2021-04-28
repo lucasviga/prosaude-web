@@ -2,8 +2,9 @@ import styled from 'styled-components';
 
 export const Container = styled.footer`
   background: #fff;
-  border-bottom: 4px solid #258CC6;
-  padding: 3rem 10rem;
+  padding: 3rem 0;
+  max-width: 1120px;
+  margin: 0 auto;
 
   @media (max-width: 56.25em) {
     padding: 5rem;

@@ -7,7 +7,7 @@ import {
 import {FaTooth, FaDna, FaHeartbeat} from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
-import logo from '../../assets/img/logo_prosaude.png';
+import logo from '../../assets/img/logo.svg';
 import './mobile.css';
 
 export default function Mobile() {

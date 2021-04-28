@@ -8,13 +8,15 @@ export const Container = styled.div`
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
 
+
     &__content {
       display: flex;
       flex-direction: row;
       align-items: center;
       justify-content: space-between;
       height: 100%;
-      margin: 0 2.5rem;
+      max-width: 1120px;
+      margin: 0 auto;
     }
   }
 

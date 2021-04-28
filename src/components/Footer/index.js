@@ -4,7 +4,7 @@ import {FaFacebookF} from 'react-icons/fa';
 
 
 import { Container, SocialMedia, SectionInfo } from './styles';
-import logo from '../../assets/img/logo_prosaude.png';
+import logo from '../../assets/img/logo.svg';
 
 export default function Footer() {
   const today = new Date();

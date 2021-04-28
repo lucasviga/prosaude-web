@@ -31,8 +31,8 @@ function Home() {
     <>
       <Header />
       <Carousel className="mg-md-top" autoPlay infiniteLoop showArrows showThumbs={false} showStatus={false}>
-        <div>
-          <img src={banner1} alt="Clinico Geral e Pediatra Gratuito" />
+        {/* <div> */}
+          {/* <img src={banner1} alt="Clinico Geral e Pediatra Gratuito" /> */}
           {/* <ContentTextSlide>
             <h1>
               Clinico Geral e
@@ -42,10 +42,10 @@ function Home() {
 
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
           </ContentTextSlide> */}
-        </div>
+        {/* </div> */}
 
         <div><img src={banner2} alt="Clinico Geral e Pediatra Gratuito" /></div>
-        <div><img src={banner3} alt="Clinico Geral e Pediatra Gratuito" /></div>
+        {/* <div><img src={banner3} alt="Clinico Geral e Pediatra Gratuito" /></div> */}
       </Carousel>
 
       <SectionVantagens>
