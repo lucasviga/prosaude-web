@@ -66,6 +66,13 @@ export const SectionUnidade = styled.section`
     transition: all .6s ease;
     width: 350px;
     color: #616161;
+    transition: all .3s;
+
+    &:hover {
+      background: #EBF3F8;
+      /* color: #ffffff; */
+      // EBF3F8
+    }
 
     @media (max-width: 56.25em) {
       width: 290px;

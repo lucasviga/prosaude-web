@@ -69,7 +69,7 @@ export const data = [
     id: 12,
     nomeExame: 'Otorrinolaringologista',
     description: '',
-    valor: '90,00'
+    valor: '120,00'
   },
   {
     id: 13,
@@ -105,12 +105,12 @@ export const data = [
     id: 18,
     nomeExame: 'Pneumologista',
     description: '',
-    valor: '120,00'
+    valor: '160,00'
   },
   {
     id: 19,
     nomeExame: 'Reumatologista',
     description: '',
-    valor: '120,00'
+    valor: '200,00'
   },
 ]

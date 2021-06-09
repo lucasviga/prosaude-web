@@ -17,7 +17,13 @@ function Home() {
 
       <SectionUnidade>
         <div className="cards">
-          <div className="card">
+          <a
+            href="https://g.page/sociedadeprosaudeaparecida?share"
+            target="_blank"
+            without
+            rel="noreferrer"
+            className="card"
+          >
             <FaHospital color="#258CC6" size={25} />
             <h1>Aparecida</h1>
             <p>
@@ -32,9 +38,15 @@ function Home() {
                 Ver o mapa
               </a>
             </div>
-          </div>
+          </a>
 
-          <div className="card">
+          <a
+            href="https://g.page/prosaudecompensa?share"
+            target="_blank"
+            without
+            rel="noreferrer"
+            className="card"
+          >
             <FaHospital color="#258CC6" size={25} />
             <h1>Compensa</h1>
             <p>
@@ -49,9 +61,15 @@ function Home() {
                 Ver o mapa
               </a>
             </div>
-          </div>
+          </a>
 
-          <div className="card">
+          <a
+            href="https://g.page/ProSaudeCidadeNova?share"
+            target="_blank"
+            without
+            rel="noreferrer"
+            className="card"
+          >
             <FaHospital color="#258CC6" size={25} />
             <h1>Cidade Nova</h1>
             <p>
@@ -66,9 +84,15 @@ function Home() {
                 Ver o mapa
               </a>
             </div>
-          </div>
+          </a>
 
-          <div className="card">
+          <a
+            href="https://g.page/prosaudegrandecircular?share"
+            target="_blank"
+            without
+            rel="noreferrer"
+            className="card"
+          >
             <FaHospital color="#258CC6" size={25} />
             <h1>Grande Circular</h1>
             <p>
@@ -83,9 +107,15 @@ function Home() {
                 Ver o mapa
               </a>
             </div>
-          </div>
+          </a>
 
-          <div className="card">
+          <a
+            href="https://goo.gl/maps/RHsvSBJip2aoAXn97"
+            target="_blank"
+            without
+            rel="noreferrer"
+            className="card"
+          >
             <FaHospital color="#258CC6" size={25} />
             <h1>Major Gabriel</h1>
             <p>
@@ -100,9 +130,15 @@ function Home() {
                 Ver o mapa
               </a>
             </div>
-          </div>
+          </a>
 
-          <div className="card">
+          <a
+            href="https://goo.gl/maps/j6ccSg3LXAGKP5B78"
+            target="_blank"
+            without
+            rel="noreferrer"
+            className="card"
+          >
             <FaHospital color="#258CC6" size={25} />
             <h1>Manoa</h1>
             <p>
@@ -117,9 +153,15 @@ function Home() {
                 Ver o mapa
               </a>
             </div>
-          </div>
+          </a>
 
-          <div className="card">
+          <a
+            href="https://goo.gl/maps/zjURCZHV2SxVQ6V26"
+            target="_blank"
+            without
+            rel="noreferrer"
+            className="card"
+          >
             <FaHospital color="#258CC6" size={25} />
             <h1>Educandos</h1>
             <p>
@@ -134,7 +176,53 @@ function Home() {
                 Ver o mapa
               </a>
             </div>
-          </div>
+          </a>
+
+          <a
+            href="https://goo.gl/maps/zjURCZHV2SxVQ6V26"
+            target="_blank"
+            without
+            rel="noreferrer"
+            className="card"
+          >
+            <FaHospital color="#258CC6" size={25} />
+            <h1>Torquato</h1>
+            <p>
+              Av. Leopoldo Péres, 500 (em frente a Bemol)
+              <br />
+              Educandos, Manaus-AM
+            </p>
+            <span>69010-300</span>
+
+            <div className="card__link-mapa">
+              <a href="https://goo.gl/maps/zjURCZHV2SxVQ6V26" target="_blank" without rel="noreferrer">
+                Ver o mapa
+              </a>
+            </div>
+          </a>
+
+          <a
+            href="https://goo.gl/maps/zjURCZHV2SxVQ6V26"
+            target="_blank"
+            without
+            rel="noreferrer"
+            className="card"
+          >
+            <FaHospital color="#258CC6" size={25} />
+            <h1>Tapajós</h1>
+            <p>
+              Av. Leopoldo Péres, 500 (em frente a Bemol)
+              <br />
+              Educandos, Manaus-AM
+            </p>
+            <span>69010-300</span>
+
+            <div className="card__link-mapa">
+              <a href="https://goo.gl/maps/zjURCZHV2SxVQ6V26" target="_blank" without rel="noreferrer">
+                Ver o mapa
+              </a>
+            </div>
+          </a>
         </div>
       </SectionUnidade>
 

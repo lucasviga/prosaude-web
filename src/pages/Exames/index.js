@@ -52,7 +52,7 @@ function Exames() {
                       </button>
                     </td> */}
                     <td>{exame?.description}</td>
-                    <td>R$ ${exame.valor}</td>
+                    <td>R$ {exame.valor}</td>
 
 
                     {/* <td>Agendar pelo Whatsapp</td> */}

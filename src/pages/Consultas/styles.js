@@ -130,7 +130,8 @@ export const HeaderConsulta = styled.div`
 `;
 
 export const Wrapper = styled.div`
-  /* margin: 5rem; */
+  max-width: 1120px;
+  margin: 0 auto;
 
   > h2 {
     font-size: 2rem;
